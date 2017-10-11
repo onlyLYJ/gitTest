@@ -17,7 +17,7 @@ public class Activity implements Serializable {
     private Integer id;
 
     /**
-     * 活动名
+     * 活动名 fix banner bug
      */
     @Column(name = "activity_name")
     private String activityName;
